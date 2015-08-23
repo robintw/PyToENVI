@@ -1,5 +1,5 @@
 # PyToENVI
-Simple Python interface to ENVI, which allows you to display images in ENVi really easily.
+Simple Python interface to ENVI, which allows you to display images in ENVI really easily.
 
 ## Usage
 It's really simple to use - simply run:
