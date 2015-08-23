@@ -1,3 +1,7 @@
+"""
+Contains functions for working with ENVI Classic from Python,
+principally focused on displaying images.
+"""
 import os
 
 from idlpy import IDL
@@ -36,6 +40,11 @@ def load(arr_or_name):
 		load_array(arr_or_name)
 
 def display(arr_or_name):
+	"""
+	Display an image in ENVI.
+
+	The single argument can be either a numpy array, or a string containing an image filename.
+	"""
 	load(arr_or_name)
 
 	# Open a display here!
